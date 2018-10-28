@@ -35,7 +35,6 @@ public class Segment {
     //yy координата точки А объекта seg1
     public double segmentLength(Segment seg1) {
 
-        double lenght = Math.sqrt((seg1.getA().getXx() - seg1.getB().getXx) * (seg1.getA().getXx() - seg1.getB().getXx()) + (seg1.getA().getYy() - seg1.getB().getYy()) * (seg1.getA().getYy() - seg1.getB().getYy()));
-        return lenght;
+        return Math.sqrt(Math.pow((seg1.getA().getXx() - seg1.getB().getXx), 2) + Math.pow((seg1.getA().getYy() - seg1.getB().getYy()), 2);
     }
 }
