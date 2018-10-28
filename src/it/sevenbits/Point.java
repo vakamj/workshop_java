@@ -5,6 +5,9 @@ public class Point {
     private int xx;
     private int yy;
 
+    private Point() {
+    }
+
     //Конструктор создает объект класса Point
     public Point(int xx, int yy) {
         this.xx = xx;
