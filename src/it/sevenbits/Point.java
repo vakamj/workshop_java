@@ -4,15 +4,18 @@ public class Point {
     //Координаты
     private int xx;
     private int yy;
+
     //Конструктор создает объект класса Point
-    public  Point(int xx, int yy) {
+    public Point(int xx, int yy) {
         this.xx = xx;
         this.yy = yy;
     }
+
     //Получаем координату хх
     public int getXx() {
         return xx;
     }
+
     //Задаем координату хх
     public void setXx(int xx) {
         this.xx = xx;
