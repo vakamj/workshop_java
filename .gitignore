@@ -1,5 +1,5 @@
 trash/
-.idea/
+.idea
 target/
 *.class
 *.jar
